@@ -5,14 +5,14 @@ Hi to try my application
 Please do the following:
    - git clone the repo
    > If no virtual env 
-      - Create virtual environment Command: (python -m venv venv)
-      - Activate the virtual environment
+      1. Create virtual environment Command: (python -m venv venv)
+      2. Activate the virtual environment
          Command: venv\Scripts\activate
          Command LINUX: source venv\Scripts\activate
-         - Install the packages using PIP Command: pip install -r requirements.txt
+      3. Install the packages using PIP Command: pip install -r requirements.txt
    > If you want to clean the database do the following:
       - Delete the (address_book.db)   
-   > Delete the file in revision folder (pycache and .py)
+   > Delete the file in the revision folder (pycache and .py)
    - Then RUN "alembic revision --autogenerate" to generate new migration   
    - Then RUN the project using: "uvicorn main:app"
 
