@@ -24,7 +24,7 @@ For Future Task:
   - Pytest
 
 References:
-   https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
-   https://fastapi.tiangolo.com/
-   https://alembic.sqlalchemy.org/en/latest/autogenerate.html
-   https://geopy.readthedocs.io/en/stable/
+   - https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+   - https://fastapi.tiangolo.com/
+   - https://alembic.sqlalchemy.org/en/latest/autogenerate.html
+   - https://geopy.readthedocs.io/en/stable/
