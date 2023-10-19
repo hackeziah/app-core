@@ -16,6 +16,8 @@ Please do the following:
       3. Then RUN "alembic revision --autogenerate" to generate new migration   
    - Then RUN the project using: "uvicorn main:app"
 
+   - GO to http://127.0.0.1:8000/docs
+
 Technology use: 
    - FastAPI
    - Alembic
