@@ -12,6 +12,12 @@ Please do the following:
    - Install the packages using PIP Command: pip install -r requirements.txt
    - Then RUN the project using: uvicorn main:app
 
+Technology use: 
+   - FastAPI
+   - Alembic
+   - Sqlalchemy
+   - Geopy (Maps Nominatim) 
+
 For Future Task:
   - Doc String
   - Add Logging
