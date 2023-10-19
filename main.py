@@ -20,8 +20,12 @@ You can **read items**.
 
 You will be able to:
 
-* **Create users** (_not implemented_).
-* **Read users** (_not implemented_).
+* **Create users**
+* **Read users** 
+* **Find address using lat and long** 
+* **Find address using address name**
+* **CRUD for AddressBook**  
+
 """
 app = FastAPI(
     title="Address Book API",
