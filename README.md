@@ -4,16 +4,16 @@ Simple CRUD FASTAPI with Geo Search
 Hi to try my application
 Please do the following:
    - git clone the repo
-   > If no virtual env 
+   If no virtual env 
       1. Create virtual environment Command: (python -m venv venv)
       2. Activate the virtual environment
          Command: venv\Scripts\activate
-         Command LINUX: source venv\Scripts\activate
+         Command LINUX: source venv/Scripts/activate
       3. Install the packages using PIP Command: pip install -r requirements.txt
-   > If you want to clean the database do the following:
-      - Delete the (address_book.db)   
-   > Delete the file in the revision folder (pycache and .py)
-   - Then RUN "alembic revision --autogenerate" to generate new migration   
+   - If you want to clean the database do the following:
+      1. Delete the (address_book.db)
+      2. Delete the file in the revision folder (pycache and .py)
+      3. Then RUN "alembic revision --autogenerate" to generate new migration   
    - Then RUN the project using: "uvicorn main:app"
 
 Technology use: 
