@@ -9,8 +9,12 @@ Please do the following:
       - Activate the virtual environment
          Command: venv\Scripts\activate
          Command LINUX: source venv\Scripts\activate
-   - Install the packages using PIP Command: pip install -r requirements.txt
-   - Then RUN the project using: uvicorn main:app
+         - Install the packages using PIP Command: pip install -r requirements.txt
+   > If you want to clean the database do the following:
+      - Delete the (address_book.db)   
+   > Delete the file in revision folder (pycache and .py)
+   - Then RUN "alembic revision --autogenerate" to generate new migration   
+   - Then RUN the project using: "uvicorn main:app"
 
 Technology use: 
    - FastAPI
