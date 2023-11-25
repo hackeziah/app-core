@@ -1,6 +1,8 @@
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
+  
+from ..config import settings 
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./address_book.db"
 

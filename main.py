@@ -12,14 +12,6 @@ account.Base.metadata.create_all(bind=engine)
 description = """
 Address Book API helps you do awesome stuff. 🚀
 
-## Items
-
-You can **read items**.
-
-## Users
-
-You will be able to:
-
 * **Create users**
 * **Read users** 
 * **Find address using lat and long** 
